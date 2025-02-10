@@ -1,8 +1,9 @@
 #include <iostream>
 #include <iomanip>
 
+// Вычисление числа Фибоначи
 double fib(int numb) {
-	if (numb <= 1) return numb;
+	if (numb <= 1) return numb;	
 	else return fib(numb - 1) + fib(numb - 2);
 }
 
